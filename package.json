@@ -2,7 +2,6 @@
     "name": "typescript-starter",
     "version": "0.1.0",
     "description": "My default configuration for typescript projects.",
-    "main": "./lib/src/index.js",
     "scripts": {
         "build": "tsc",
         "start": "ts-node src/index.ts"
@@ -10,9 +9,6 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Cornayy/typescript-starter.git"
-    },
-    "bin": {
-        "firecase": "./lib/src/index.js"
     },
     "author": "Cornayy",
     "license": "MIT",
